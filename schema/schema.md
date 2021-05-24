@@ -11,7 +11,7 @@ use anuragDB;
 Show Schemaes
 ```mysql
 show databases;
-show databases like "%anuragdb"; 
+show databases like "%uragdb"; 
 ```
 
 Drop Schema
