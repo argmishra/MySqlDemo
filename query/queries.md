@@ -30,7 +30,7 @@ select * from employee where id=2;
 replace into employee (id, age) values (3, 400);
 ```
 
-## Replace Table
+## Insert Table by Select
 ```mysql
 insert into user (name) select name from employee where id=2;
 ```

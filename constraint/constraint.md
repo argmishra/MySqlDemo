@@ -2,8 +2,8 @@
 The constraint in MySQL is used to specify the rule that allows or restricts what values/data
 will be stored in the table.
 
-a. Column Level Constraints
-b. Method Level Constraints
+1. Column Level Constraints
+2. Method Level Constraints
 
 ## Types
 | **Type**        |**Description**                     |
