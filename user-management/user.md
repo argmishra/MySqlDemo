@@ -18,6 +18,11 @@ GRANT ALL PRIVILEGES ON * . * TO anurag@localhost;
 SHOW GRANTS for anurag@localhost;
 ```
 
+## Revert PRIVILEGES to User
+```mysql
+revoke all, grant option from anurag@localhost; 
+```
+
 ## Drop User
 ```mysql
 drop user anurag@localhost;
