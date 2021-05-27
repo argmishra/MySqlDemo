@@ -16,5 +16,5 @@ show databases like "%uragdb";
 
 ## Drop Schema
 ```mysql
-create database if not exists anuragDB; 
+drop database if exists anuragDB; 
 ```

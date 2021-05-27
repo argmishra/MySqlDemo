@@ -34,7 +34,7 @@ after name,
 add address long NOT NULL;
 ```
 
-## Modift Column
+## Modify Column
 ```mysql
 alter table employee modify address varchar(80) NULL;
 ```
