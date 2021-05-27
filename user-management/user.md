@@ -25,6 +25,6 @@ drop user anurag@localhost;
 
 Change Password
 ```mysql
-SET PASSWORD FOR 'anurag'@'localhost' = test;
+SET PASSWORD FOR 'anurag'@'localhost' = 'test';
 FLUSH PRIVILEGES;  
 ```
