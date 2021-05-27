@@ -1,4 +1,4 @@
-Lock Table
+## Lock Table
 ```mysql
 lock table employee READ;
 ```
@@ -7,17 +7,17 @@ OR
 lock table employee WRITE;
 ```
 
-Unlock Table
+## Unlock Table
 ```mysql
 unlock tables;
 ```
 
-Lock User
+## Lock User
 ```mysql
 alter user anurag@localhost account lock;  
 ```
 
-UnLock User
+## Unlock User
 ```mysql
 alter user anurag@localhost account unlock;  
 ```

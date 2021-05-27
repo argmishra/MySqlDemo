@@ -1,4 +1,4 @@
-Create Table
+## Create Table
 ```mysql
 create table if not exists employee (
 id int NOT NULL auto_increment,
@@ -9,12 +9,12 @@ primary key(id)
 );
 ```
 
-Show Tables
+## Show Tables
 ```mysql
 show tables;
 ```
 
-Show Table Structure
+## Show Table Structure
 ```mysql
 describe employee;
 ```
@@ -23,7 +23,7 @@ OR
 show columns from employee;
 ```
 
-Add Column
+## Add Column
 ```mysql
 alter table employee add city varchar(40) NOT NULL;
 ```
@@ -34,22 +34,22 @@ after name,
 add address long NOT NULL;
 ```
 
-Modift Column
+## Modift Column
 ```mysql
 alter table employee modify address varchar(80) NULL;
 ```
 
-Drop Column
+## Drop Column
 ```mysql
 alter table employee drop column salary;
 ```
 
-Rename Column
+## Rename Column
 ```mysql
 alter table employee change column city country varchar(80) NULL;
 ```
 
-Rename Table
+## Rename Table
 ```mysql
 alter table employee rename to user;
 ```
@@ -58,25 +58,25 @@ OR
 rename table user to employee;
 ```
 
-Truncate Table
+## Truncate Table
 ```mysql
 INSERT INTO employee ( id, name, address, occupation, age, country)
 VALUES (1, 'Anurag', 'Limerick', 'Developer', 29, 'India');
 truncate table employee;
 ```
 
-Drop Table
+## Drop Table
 ```mysql
 drop table employee;
 ```
 
-Copy Table
+## Copy Table
 ```mysql
 CREATE TABLE IF NOT EXISTS duplicate_table   
 SELECT * FROM original_table;  
 ```
 
-Create View
+## Create View
 ```mysql
 create view argmishra as select name from employee;
 ```

@@ -1,20 +1,20 @@
-Create Schema
+## Create Schema
 ```mysql
 create database if not exists anuragDB;
 ```
 
-Use Schema
+## Use Schema
 ```mysql
 use anuragDB;
 ```
 
-Show Schemaes
+## Show Schemaes
 ```mysql
 show databases;
 show databases like "%uragdb"; 
 ```
 
-Drop Schema
+## Drop Schema
 ```mysql
 create database if not exists anuragDB; 
 ```
