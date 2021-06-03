@@ -6,8 +6,11 @@ insert into employee (id, name, occupation, age) values (1, 'Anurag', 'Developer
 ## Insert Table - Multiple Row
 ```mysql
 insert into employee (id, name, occupation, age) values 
-(2, 'Sonu', 'Engineer', 29),
-(3, 'Optimus', 'Leader', 500);
+(1, 'Anurag', 'Developer',29),
+(2, 'Abhinav', 'Manager', 33),
+(3, 'Vinit', 'Engineer', 31),
+(4, 'Jugal', 'Lead', 55),
+(1, 'Anurag', 'Developer',29),
 ```
 
 ## Update Table

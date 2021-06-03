@@ -27,4 +27,6 @@ MySQL is an open-source relational database management system based on the Struc
 6. <a href="query/queries.md">Query</a>
 7. <a href="index/indexes.md">Indexes</a>
 7. <a href="clause/clauses.md">Clauses</a>
+8. <a href="flow/flow.md">Flow</a>
+
 
