@@ -27,3 +27,10 @@ SELECT name, AVG(age) FROM employee GROUP BY name;
 ```mysql
 SELECT name, AVG(age) FROM employee GROUP BY name having AVG(age) > 32;
 ```
+
+## Union clause
+```mysql
+SELECT * FROM office    
+UNION    
+SELECT * FROM number;
+```
