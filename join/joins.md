@@ -6,7 +6,7 @@ INNER JOIN number n
 ON o.office_id = n.number_id; 
 ```
 
-## LEFY JOIN
+## LEFT JOIN
 ```mysql
 SELECT o.location, o.staff, n.type, n.working    
 FROM office o   
