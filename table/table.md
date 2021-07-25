@@ -80,3 +80,13 @@ SELECT * FROM original_table;
 ```mysql
 create view argmishra as select name from employee;
 ```
+
+## Enum and Set
+```mysql
+CREATE TABLE shirts (  
+    id INT PRIMARY KEY AUTO_INCREMENT,   
+    name VARCHAR(35),   
+    size ENUM('small', 'medium', 'large', 'x-large')  
+	myset SET('Java','Python','Android','PHP')  
+);  
+```

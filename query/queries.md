@@ -37,3 +37,44 @@ replace into employee (id, age) values (3, 400);
 ```mysql
 insert into user (name) select name from employee where id=2;
 ```
+
+## Upsert Table
+```mysql
+insert ignore into employee (id, name, occupation, age) values 
+(1, 'Anurag', 'Developer',29);
+```
+
+## Cast
+```mysql
+SELECT CAST("2018-11-30" AS DATE);  
+```
+
+## Convert
+```mysql
+SELECT CONVERT("2018-11-30", DATETIME);  
+```
+
+## Extract
+```mysql
+SELECT EXTRACT(MONTH FROM '2020-07-15 08:06:44') AS MONTH;
+```
+
+## COALESCE
+```mysql
+SELECT COALESCE(NULL, 1, 2, 'MySQL', NULL, 'JAVA', NULL);   
+```
+
+## Alias
+```mysql
+select id as "user_id", first_name as "name" from user;
+```
+
+## Explain
+```mysql
+EXPLAIN select * from user;
+```
+
+## Random
+```mysql
+SELECT * FROM user ORDER BY RAND()
+```
